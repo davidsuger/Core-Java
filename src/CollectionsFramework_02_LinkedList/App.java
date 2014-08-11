@@ -10,9 +10,9 @@ public class App {
 		/*
 		 * ArrayList manage arrays internally
 		 * [0][1][2][3][4][5] ....
-		 * ArrayList使用数组储存数据，取得数据使用数组index，所以很快。在后面加也很快，默认的大小是10，当超过的时候会建一个两倍大小的数组
-		 * 然后把之前的数据拷贝进去。 如果在前面加数据，需要把数据整个移动，消耗很大，如果是加在后面几位，移动的少
-		 * 所以也可以。
+		 * ArrayList使用数组储存数据，取得数据使用数组index，所以很快。在后面加也很快，默认的大小是10，
+		 * 当超过的时候会建一个两倍大小的数组然后把之前的数据拷贝进去。 如果在前面加数据，需要把数据整个移动，消耗很大，
+		 * 如果是加在后面几位，移动的少所以也可以。
 		 * 
 		 * LinkedList consists of elements where each element
 		 * has a reference to the previous and next element
