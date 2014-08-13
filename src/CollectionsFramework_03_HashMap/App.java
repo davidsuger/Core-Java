@@ -22,6 +22,9 @@ public class App {
 
 		// 遍历Map的一种方法
 		// HashMap不能保证key-value对的顺序
+		// 接口 Map.Entry<K,V>,映射项（键-值对）。Map.entrySet
+		// 方法返回映射的collection视图，其中的元素属于此类。
+		// Map接口的方法：Set<Map.Entry<K,V>> entrySet()，返回此映射中包含的映射关系的 Set 视图。
 		for (Map.Entry<Integer, String> entry : map.entrySet()) {
 			int key = entry.getKey();
 			String value = entry.getValue();
